@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge 3: Malware Unraveling</title>
+    <link rel="stylesheet" href="assets/styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Challenge 3: Malware Unraveling</h1>
+        <p>Analyze the malware and extract the hidden code that might lead to the hackers.</p>
+
+        <!-- Example of malware code -->
+        <pre>
+/* Malicious Code */
+function malware() {
+    let hiddenMessage = "Q2F0Y2ggdGhlbSBpZiB5b3UgY2FuIQ=="; // Base64 encoded
+    return atob(hiddenMessage);
+}
+        </pre>
+
+        <button onclick="submitChallenge3()">Submit Solution</button>
+    </div>
+
+    <script src="assets/scripts.js"></script>
+</body>
+
+</html>
